@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('keep.png');
+  background-size: cover;
+  
+}
+.Navbar {
+  background-color: rgba(15, 15, 15, 0.623);  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  position: fixed;
+  width: 100vw;
+}
+
+.Navbar h1 {
+  padding: 0px 20px 0px;
+  font-family: Impact;
+  color: #fbf8f8;
+}
+
+.Navbar .search {
+  margin: 0px 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.Navbar .search i {
+  width: 25px;
+  height: 30px;
+  background-color: #fbf8f8;
+  padding: 8px 4px 8px;
+}
+.Navbar .search input {
+  width: 10vw;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  color: black;
+  padding: 10px 20px 10px 0px;
+}
+.Navbar .search .search-box:hover {
+  border: 2px solid orange;
+}
+.Navbar .search .search-box{
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.Navbar .search button {
+  font-size: 18px;
+  margin: 0px 13px 0px;
+  padding: 2px 6px 2px;
+  transition: all 0.5s;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+
+}
+
+.Navbar .search button:hover {
+
+  background-color: green;
+  color: #fbf8f8;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20vw;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
+  background-color: #fbf8f8;
+
+}
+
+.main-box input {
+
+  height: 30px;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fbf8f8;
+
+}
+.search input{
+  background-color: #fbf8f8;
+}
+
+.main-box input::placeholder {
+  font-size: 25px;
+}
+
+.main-box textarea {
+  border: 0;
+  outline: 0;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #fbf8f8;
+  color: black;
+}
+
+.main-box i {
+  font-size: 20px;
+  background-color: #fbf8f8;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-left: 2px;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 1px;
+  position: relative;
+  left: 98%;
+  bottom: -20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+.Notes-card {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  width: 20vw;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
+  background-color: #fbf8f8;
+  margin-right: 40px;
+  
+
+}
+.Bold{
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-box i:hover{
+  background-color: rgb(255, 165, 0);
+  color: #fbf8f8;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.Notes-card i{
+  position: relative;
+  cursor: pointer;
+  left:100%;
+  bottom: -12px;
+  font-size: 20px;
+}
+.Notes-card i:hover{
+  color: red;
+  transition: all 0.4s;
+}
+.grid{
+  display: flex;
+  align-items: center;
+  height: 40%;
+  width: 40%;
+  
+}
